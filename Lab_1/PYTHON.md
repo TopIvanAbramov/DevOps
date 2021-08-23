@@ -5,4 +5,4 @@
 - Describe all dependencies in requirements.txt file
 - Use linter for code optimization ([Pylinter](https://pypi.org/project/pylint/))
 - Containerize app for easier deployment
-- Allo app configuration using environment variables
+- Allow app configuration using environment variables
