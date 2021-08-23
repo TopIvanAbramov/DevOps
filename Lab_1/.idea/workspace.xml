@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Merge branch 'main' of https://github.com/topivanabramov/DevOps into main&#10;&#10;# Conflicts:&#10;#&#9;.DS_Store&#10;#&#9;Lab_1/.DS_Store">
-      <change afterPath="$PROJECT_DIR$/Docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_python/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lab_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore">
+      <change afterPath="$PROJECT_DIR$/PYTHON.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629660383187</updated>
       <workItem from="1629660386348" duration="6651000" />
-      <workItem from="1629670899356" duration="1478000" />
+      <workItem from="1629670899356" duration="4751000" />
     </task>
     <servers />
   </component>
@@ -125,7 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'main' of https://github.com/topivanabramov/DevOps into main&#10;&#10;# Conflicts:&#10;#&#9;.DS_Store&#10;#&#9;Lab_1/.DS_Store" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/topivanabramov/DevOps into main&#10;&#10;# Conflicts:&#10;#&#9;.DS_Store&#10;#&#9;Lab_1/.DS_Store" />
+    <MESSAGE value="Add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="95" key="#Plugins" timestamp="1629661460631">
