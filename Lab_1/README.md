@@ -1,4 +1,4 @@
-#### **Containerized web application**
+## **Containerized web application**
 
 > Ivan Abramov
 > BS-18 SE-1
