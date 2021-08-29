@@ -24,9 +24,9 @@ docker run --rm -p 5000:5000 flask_app
 
 #### Used linters for code optimization
 
-- hadolint 
-- Pylint
-- MarkdownLint
+- [hadolint](https://github.com/hadolint/hadolint) 
+- [Pylint](https://www.pylint.org)
+- [MarkdownLint](https://github.com/DavidAnson/markdownlint)
 
 #### Run unit tests
 
