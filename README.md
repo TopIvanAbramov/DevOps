@@ -1,4 +1,4 @@
-[![Docker CI Actions Status](https://github.com/topivanabramov/devops/workflows/docker-co/badge.svg)](https://github.com/topivanabramov/devops/actions) 
+[![Docker CI Actions Status](https://github.com/topivanabramov/devops/workflows/docker-ci/badge.svg)](https://github.com/topivanabramov/devops/actions) 
 
 ## **Containerized web application**
 
