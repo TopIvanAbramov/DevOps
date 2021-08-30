@@ -10,3 +10,16 @@ One of the key benefits of integrating regularly is that you can detect errors q
 - Automate testing and deployment
 - Split jobs for different stages
 - Cache tools and job dependencies
+
+### **Github actions best practices**
+
+- Keep actions small and fast
+- Add additional security to protect workflow from changes
+- Store secrets using Github secrets
+- In public repos do not use self-hosted runners
+- Protect script from injections
+
+### **Jenkins best practices**
+
+- Run inside jobs via docker agent
+- Setup Github credentials for protection

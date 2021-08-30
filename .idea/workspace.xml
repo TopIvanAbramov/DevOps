@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore, PYTHON.md">
-      <change afterPath="$PROJECT_DIR$/app_python/dev-requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI.md" beforeDir="false" afterPath="$PROJECT_DIR$/CI.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <workItem from="1629660386348" duration="6651000" />
       <workItem from="1629670899356" duration="4751000" />
       <workItem from="1630257151262" duration="7441000" />
-      <workItem from="1630267893849" duration="1338000" />
+      <workItem from="1630267893849" duration="2754000" />
     </task>
     <servers />
   </component>
@@ -199,10 +199,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1629676978206" />
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1630266729829">
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1630323932078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1630266729829" />
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1630323932078" />
     <state x="385" y="196" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1629661714129" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
