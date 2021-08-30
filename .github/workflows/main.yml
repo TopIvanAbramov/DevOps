@@ -6,6 +6,8 @@ name: docker-ci
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
+    tags:
+      - docker_push
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
