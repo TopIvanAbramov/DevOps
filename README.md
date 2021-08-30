@@ -1,3 +1,5 @@
+[![docker-ci Actions Status](https://github.com/topivanabramov/devops/workflows/docker-ci/badge.svg)](https://github.com/topivanabramov/devops/actions) 
+
 ## **Containerized web application**
 
 > Ivan Abramov
