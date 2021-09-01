@@ -24,4 +24,4 @@ One of the key benefits of integrating regularly is that you can detect errors q
 - Run inside jobs via docker agent
 - Setup Github credentials for protection
 
-![alt text](https://github.com/TopIvanAbramov/DevOps/tree/main/Images)
+![alt text](https://github.com/TopIvanAbramov/DevOps/blob/main/Images/jenkins.png)
