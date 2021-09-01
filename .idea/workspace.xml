@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore, PYTHON.md">
+      <change afterPath="$PROJECT_DIR$/Images/jenkins.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_08_2021,_03_03_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_08_2021__03_03__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CI.md" beforeDir="false" afterPath="$PROJECT_DIR$/CI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_python/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_python/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -123,7 +126,7 @@
       <workItem from="1629660386348" duration="6651000" />
       <workItem from="1629670899356" duration="4751000" />
       <workItem from="1630257151262" duration="7441000" />
-      <workItem from="1630267893849" duration="2754000" />
+      <workItem from="1630267893849" duration="4568000" />
     </task>
     <servers />
   </component>
