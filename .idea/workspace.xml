@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore, PYTHON.md">
-      <change afterPath="$PROJECT_DIR$/TF.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Terraform/AWS/aws.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Terraform/VirtualBox/virtualbox.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/Ansible.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/flask.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/inventory/aws.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/requirements.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/flask/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/flask/tasks/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/flask/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/install_docker/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/install_docker/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/install_docker/tasks/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/install_docker/tasks/docker-users.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ansible/roles/install_docker/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Terraform/AWS/aws.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Terraform/AWS/aws.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -129,7 +140,8 @@
       <workItem from="1629660386348" duration="6651000" />
       <workItem from="1629670899356" duration="4751000" />
       <workItem from="1630257151262" duration="7441000" />
-      <workItem from="1630267893849" duration="7913000" />
+      <workItem from="1630267893849" duration="8972000" />
+      <workItem from="1630947287377" duration="5433000" />
     </task>
     <servers />
   </component>
@@ -169,22 +181,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1630507424943" />
-    <state width="1398" height="106" key="GridCell.Tab.0.bottom" timestamp="1630260851541">
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1630579783866">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="106" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1630260851541" />
-    <state width="1398" height="106" key="GridCell.Tab.0.center" timestamp="1630260851540">
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1630579783866" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1630579783864">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="106" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1630260851540" />
-    <state width="1398" height="106" key="GridCell.Tab.0.left" timestamp="1630260851539">
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1630579783864" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1630579783863">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="106" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1630260851539" />
-    <state width="1398" height="106" key="GridCell.Tab.0.right" timestamp="1630260851541">
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1630579783863" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1630579783865">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="106" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1630260851541" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1630579783865" />
     <state x="144" y="76" key="MergeDialog" timestamp="1629677006715">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -193,10 +205,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="358" y="215" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1629677001402" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1630267936327">
+    <state x="229" y="86" key="SettingsEditor" timestamp="1630949599842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1630267936327" />
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1630949599842" />
     <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1629676906827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -205,10 +217,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1629676978206" />
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1630506898605">
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1630949960036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1630506898605" />
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1630949960036" />
     <state x="385" y="196" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1629661714129" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
