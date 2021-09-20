@@ -23,12 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore, PYTHON.md">
-      <change afterPath="$PROJECT_DIR$/app_python/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoring/LOGGING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoring/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoring/loki-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoring/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitoring/promtail.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/.helmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/hpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/tests/test-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/screens/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/screens/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/screens/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,31 +70,56 @@
   </component>
   <component name="JupyterTrust" id="cc6afcc1-17ad-462a-8aaa-2796fef6a013" />
   <component name="ProjectId" id="1x60lUGFOrHFdvS1wo0zEGBMdrm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/k8s/screens" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s" />
+      <recent name="$PROJECT_DIR$/k8s/flask_app" />
       <recent name="$PROJECT_DIR$/monitoring" />
       <recent name="$PROJECT_DIR$/monitoring/loki" />
       <recent name="$PROJECT_DIR$/monitoring/promtail" />
-      <recent name="$PROJECT_DIR$/Terraform/AWS" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s/screens" />
+      <recent name="$PROJECT_DIR$/k8s" />
       <recent name="$PROJECT_DIR$/Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app_python/app.py)">
+  <component name="RunManager" selected="Python.DevOps">
+    <configuration name="DevOps" type="PythonConfigurationType" factoryName="Python">
+      <module name="DevOps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_python/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Lab_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +164,7 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.Flask (app_python/app.py)" />
+      <item itemvalue="Python.DevOps" />
       <item itemvalue="Python.app" />
     </list>
   </component>
@@ -145,7 +182,10 @@
       <workItem from="1630267893849" duration="8972000" />
       <workItem from="1630947287377" duration="5846000" />
       <workItem from="1631546711941" duration="5287000" />
-      <workItem from="1631556823616" duration="430000" />
+      <workItem from="1631556823616" duration="903000" />
+      <workItem from="1632153932838" duration="1464000" />
+      <workItem from="1632157635420" duration="361000" />
+      <workItem from="1632158473876" duration="6136000" />
     </task>
     <servers />
   </component>
@@ -181,10 +221,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="166" y="75" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1631554178589" />
-    <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631549195602">
+    <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632155540693">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1631549195602" />
+    <state x="451" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1632155540693" />
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632168722223">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1632168722223" />
     <state x="585" y="334" key="EnvironmentVariablesDialog" timestamp="1631554175269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -225,10 +269,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1629676978206" />
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1631547163427">
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1632167329315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1631547163427" />
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1632167329315" />
     <state x="385" y="196" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1629661714129" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
