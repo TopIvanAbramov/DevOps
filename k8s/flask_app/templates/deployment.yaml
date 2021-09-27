@@ -33,29 +33,49 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          volumeMounts:
+            - name: config-volume
+              mountPath: /tmp/config.json
+              subPath: config.json
+          env:
+            - name: USER_LOGIN
+              valueFrom:
+                secretKeyRef:
+                  name: app-credentials
+                  key: username
+            - name: USER_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: app-credentials
+                  key: password
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
           ports:
             - name: http
               containerPort: 8000
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /get_wallet
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /get_wallet
               port: http
-          resources:
-            {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
-        {{- toYaml . | nindent 8 }}
+      {{- toYaml . | nindent 8 }}
       {{- end }}
       {{- with .Values.affinity }}
       affinity:
-        {{- toYaml . | nindent 8 }}
+      {{- toYaml . | nindent 8 }}
       {{- end }}
       {{- with .Values.tolerations }}
       tolerations:
-        {{- toYaml . | nindent 8 }}
-      {{- end }}
+  {{- toYaml . | nindent 8 }}
+  {{- end }}
