@@ -23,15 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore, PYTHON.md">
-      <change afterPath="$PROJECT_DIR$/k8s/11.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/secrets.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/screens/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/screens/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/screens/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/screens/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/screens/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/screens/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/flask_app/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/12.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/screens/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +175,7 @@
       <workItem from="1632153932838" duration="1464000" />
       <workItem from="1632157635420" duration="361000" />
       <workItem from="1632158473876" duration="6779000" />
-      <workItem from="1632770542182" duration="4614000" />
+      <workItem from="1632770542182" duration="5073000" />
     </task>
     <servers />
   </component>
