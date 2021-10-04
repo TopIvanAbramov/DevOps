@@ -23,9 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119de7b-3e2d-431f-b4cd-1b0491ee7546" name="Default Changelist" comment="Add .gitignore, PYTHON.md">
-      <change afterPath="$PROJECT_DIR$/k8s/flask_app/files/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/_helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/configMap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/13.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/serviceaccount.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/flask_app/templates/statefulset.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_python/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_python/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/templates/deployment.yaml (Old)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/templates/hpa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/templates/tests/test-connection.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/templates/tests/test-connection.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/flask_app/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/flask_app/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +61,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/topivanabramov/DevOps" />
+      </set>
+    </option>
   </component>
   <component name="JupyterTrust" id="cc6afcc1-17ad-462a-8aaa-2796fef6a013" />
   <component name="KubernetesApiPersistence">
@@ -175,7 +191,8 @@
       <workItem from="1632153932838" duration="1464000" />
       <workItem from="1632157635420" duration="361000" />
       <workItem from="1632158473876" duration="6779000" />
-      <workItem from="1632770542182" duration="5779000" />
+      <workItem from="1632770542182" duration="5986000" />
+      <workItem from="1633362902156" duration="6133000" />
     </task>
     <servers />
   </component>
@@ -248,10 +265,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="358" y="215" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1629677001402" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1631554037371">
+    <state x="229" y="86" key="SettingsEditor" timestamp="1633369552949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1631554037371" />
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1633369552949" />
     <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1629676906827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -260,10 +277,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1629676978206" />
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1632770927928">
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1633367473911">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1632770927928" />
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1633367473911" />
     <state x="385" y="196" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1629661714129" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

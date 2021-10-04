@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "app-python-chart.fullname" . }}
+  name: {{ include "flask-app.fullname" . }}
   labels:
-    {{- include "app-python-chart.labels" . | nindent 4 }}
+    {{- include "flask-app.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
   selector:
     matchLabels:
-      {{- include "app-python-chart.selectorLabels" . | nindent 6 }}
+      {{- include "flask-app.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
@@ -18,15 +18,19 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "app-python-chart.selectorLabels" . | nindent 8 }}
+        {{- include "flask-app.selectorLabels" . | nindent 8 }}
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      serviceAccountName: {{ include "app-python-chart.serviceAccountName" . }}
+      serviceAccountName: {{ include "flask-app.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      volumes:
+        - name: config-volume
+          configMap:
+            name: config-app
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -50,7 +54,7 @@ spec:
                   key: password
           resources:
             requests:
-              memory: "128Mi"
+              memory: "256Mi"
               cpu: "250m"
             limits:
               memory: "256Mi"
@@ -69,13 +73,13 @@ spec:
               port: http
       {{- with .Values.nodeSelector }}
       nodeSelector:
-      {{- toYaml . | nindent 8 }}
+        {{- toYaml . | nindent 8 }}
       {{- end }}
       {{- with .Values.affinity }}
       affinity:
-      {{- toYaml . | nindent 8 }}
+        {{- toYaml . | nindent 8 }}
       {{- end }}
       {{- with .Values.tolerations }}
       tolerations:
-  {{- toYaml . | nindent 8 }}
-  {{- end }}
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
