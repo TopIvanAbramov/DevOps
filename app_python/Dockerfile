@@ -1,14 +1,15 @@
-FROM python:3.9-alpine
+FROM python:3.8.2-slim-buster
 
-WORKDIR /app
+RUN adduser --disabled-password app --shell /bin/sh --home /usr/src/app_python --quiet
 
-COPY requirements.txt .
+WORKDIR /usr/src/app_python
+
+COPY requirements.txt main.py __init__.py ./
+
+USER app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY .. .
+EXPOSE 8000
 
-ENV TIMEZONE=Europe/Moscow
-ENV TIME_FORMAT=%H:%M:%S
-
-CMD ["flask", "run", "--host", "0.0.0.0"]
+CMD [ "python", "./main.py" ]
