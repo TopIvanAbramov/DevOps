@@ -15,27 +15,16 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
+    env:
+      USER_LOGIN: ${{ secrets.USER_LOGIN }}
+      USER_PASS: ${{ secrets.USER_PASS }}
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - name: Cache pip
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('app_python/dev-requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      - name: Install dependencies
-        run: |
-          pip install -r app_python/dev-requirements.txt
-      - name: Test with pytest
-        run: |
-          pytest
+    - uses: actions/checkout@v2
+    - run: python3 -m venv .
+    - run: pip install -r app_python/requirements.txt
+    - run: python app_python/test.py
   # This workflow contains a single job called "build"
   dockerhub_deploy:
 #    needs:
