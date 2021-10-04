@@ -9,7 +9,7 @@ class MyTestCase(unittest.TestCase):
         print("Tested env: OK")
 
     def setUp(self):
-        self.app = app_python.app.test_client()
+        self.app = app_python.test_client()
 
     def test_wallets(self):
         response = self.app.get('/get_wallet', follow_redirects=True)
